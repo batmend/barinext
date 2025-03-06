@@ -4,6 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ThemeImage } from "@/data/ThemeImage";
+import LocaleSwitcher from "@/components/LocaleSwitcher"; // LocaleSwitcher нэмэх
+import Cookies from "js-cookie";
+import English from "@/locales/English";
+import Mongolian from "@/locales/Mongolian";
 
 import {menuItems} from '../data/menulist'
 const reducer = (previousState, updatedState) => ({
@@ -25,6 +29,7 @@ export default function Header({headstyle}) {
 	}, []);
    	const [openToggle, setOpenToggle] = useState(false);
    	const [state, setState] = useReducer(reducer, initialState);
+	
 	const handleMenuActive = status => {		
 		setState({active : status});			
 		if(state.active === status){				
@@ -47,6 +52,21 @@ export default function Header({headstyle}) {
 			})
 		})
     }, [path]);
+
+	 // 📌 Хэлний тохиргоо хадгалах state
+	 const [locale, setLocale] = useState("mn"); // Анхдагч хэл Монгол
+	 const [t, setT] = useState(Mongolian); // Тухайн хэлний контент
+   
+	 useEffect(() => {
+	   const savedLocale = Cookies.get("NEXT_LOCALE") || "mn";
+	   setLocale(savedLocale);
+	   setT(savedLocale === "en" ? English : Mongolian); // Хэл өөрчлөгдөх бүрт контент шинэчлэх
+	 }, []);
+   
+	 // 📌 Хэл солигдоход контент шинэчлэх
+	 useEffect(() => {
+	   setT(locale === "en" ? English : Mongolian);
+	 }, [locale]);
 
    return(
 	<header className={`site-header header mo-left ${headstyle}`}>
@@ -76,7 +96,7 @@ export default function Header({headstyle}) {
 					{/* <!-- Extra Nav --> */}
 					<div className="extra-nav">
 						<div className="extra-cell">
-							<Link href="/contact-us-2" className="btn btn-primary">Get A Quote <i className="fa fa-angle-right m-l10"/></Link> 
+							<LocaleSwitcher setLocale={setLocale} />  {/* Хэл солих үед locale шинэчлэх */} 
 						</div>
 					</div>					
 					<div className={`header-nav navbar-collapse collapse justify-content-end ${openToggle ? 'show' : ''}`}>

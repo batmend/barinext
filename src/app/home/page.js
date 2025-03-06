@@ -21,8 +21,6 @@ import Footer from "../../components/Footer";
 import GetInTouch from "@/components/GetInTouch";
 import { awesomeServices } from "@/data/services";
 
-
-
 export default function HomePage() {    
     const selectedServices = awesomeServices.filter(service => [1,2,3].includes(service.id));
     return(

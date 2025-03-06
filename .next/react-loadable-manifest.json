@@ -1,14 +1,14 @@
 {
   "components\\PortfolioBlog.js -> imagesloaded": {
-    "id": 36374,
+    "id": "components\\PortfolioBlog.js -> imagesloaded",
     "files": [
-      "static/chunks/6374.bb896fee283c579d.js"
+      "static/chunks/_app-pages-browser_node_modules_imagesloaded_imagesloaded_js.js"
     ]
   },
   "components\\PortfolioBlog.js -> isotope-layout": {
-    "id": 53847,
+    "id": "components\\PortfolioBlog.js -> isotope-layout",
     "files": [
-      "static/chunks/3847.ac39815bccdd1725.js"
+      "static/chunks/_app-pages-browser_node_modules_isotope-layout_js_isotope_js.js"
     ]
   }
 }

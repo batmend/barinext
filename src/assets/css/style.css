@@ -24173,3 +24173,41 @@ footer {
     padding-right: 15px; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+/* src/assets/css/style.css */
+.locale-switcher button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight:500;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.locale-switcher button:hover {
+  background-color: #0056b3;
+}
+
+
+/* ✅ Мобайл хувилбарт харагддаг болгох */
+@media (max-width: 768px) {
+  .extra-nav {
+    display: flex !important; /* Нуугдсан байсан ч заавал харагдуулна */
+  }
+}
+
+@media (max-width: 564px) {
+  .locale-switcher button {
+   
+    margin-bottom: 18px;
+  }
+}
+
