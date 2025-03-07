@@ -5,22 +5,11 @@ export const getMenuItems = (t) => [
     href: "/",
   },
   {
-    title: t.MenuPages,
+    title: t.MenuAbout,
     href: "#",
-    submenu: [
-      { title: t.MenuAboutUs, href: "about-us-2" },
-      { title: t.MenuFaq, href: "faq-2" },
-      { title: t.MenuPricing, href: "pricing-table-2" },
-      { title: t.MenuTeam, href: "team-2" },
-      { title: t.MenuTeamDetails, href: "team-detail-2" },
-      { title: t.MenuCompanyHistory, href: "company-history" },
-      { title: t.MenuComingSoon, href: "coming-soon" },
-      { title: t.MenuError404, href: "error-404" },
-      { title: t.MenuSiteDown, href: "sitedown" },
-    ],
   },
   {
-    title: t.MenuServices,
+    title: t.MenuProducts,
     href: "#",
     submenu: [
       { title: t.MenuServices, href: "services-2" },
@@ -28,7 +17,7 @@ export const getMenuItems = (t) => [
     ],
   },
   {
-    title: t.MenuPostLayout,
+    title: t.MenuServices,
     href: "#",
     submenu: [
       { title: t.MenuPostStandard, href: "post-standard" },
@@ -46,7 +35,7 @@ export const getMenuItems = (t) => [
     ],
   },
   {
-    title: t.MenuBlog,
+    title: t.MenuProjects,
     href: "#",
     submenu: [
       { title: t.MenuBlogGrid, href: "blog-grid-2" },

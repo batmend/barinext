@@ -49,24 +49,19 @@ export default function Header({ headstyle, setLocale, locale }) {
   }
 
   return (
-    <header className={`site-header header mo-left ${headstyle}`}>
-      <div
-        className={`sticky-header main-bar-wraper navbar-expand-lg ${
-          headerSticky ? "is-fixed" : ""
-        }`}
-      >
+    <header
+      className="site-header header-transparent mo-left is-fixed"
+      id="fix-header"
+    >
+      <div id="home" className="sticky-header main-bar-wraper navbar-expand-lg">
         <div className="main-bar clearfix">
           <div className="container clearfix">
-            <div className="logo-header logo-dark">
-              <Link href="#" scroll={false}>
-                <Image
-                  src={ThemeImage.logoPng}
-                  alt="logo"
-                  width={112}
-                  height={28}
-                />
+            <div className="logo-header">
+              <Link href="/">
+                <Image src={ThemeImage.logoPng} alt="logo" height={100} />
               </Link>
             </div>
+
             <button
               className={`navbar-toggler navicon justify-content-end ${
                 openToggle ? "open" : "collapsed"
@@ -88,13 +83,8 @@ export default function Header({ headstyle, setLocale, locale }) {
               }`}
             >
               <div className="logo-header logo-dark">
-                <Link href="#" scroll={false}>
-                  <Image
-                    src={ThemeImage.logoPng}
-                    alt=""
-                    width={112}
-                    height={28}
-                  />
+                <Link href="/">
+                  <Image src={ThemeImage.logoPng} alt="logo" height={100} />
                 </Link>
               </div>
 

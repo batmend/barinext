@@ -24211,3 +24211,35 @@ footer {
   }
 }
 
+
+
+/*# sourceMappingURL=style.css.map */
+@import "../BariCss/Body.css";
+@import "../BariCss/top-Navbar.css";
+@import "../BariCss/Banner1.css";
+@import "../BariCss/Banner2.css";
+@import "../BariCss/Banner3.css";
+@import "../BariCss/about1.css";
+@import "../BariCss/NewChart.css";
+@import "../BariCss/barihouse.css";
+@import "../BariCss/slug.css";
+@import "../BariCss/clientsMain.css";
+
+/* ////////////*****Mongol eng hel colih towchluur ********/
+
+.extra-cell a {
+  padding: 6px;
+  margin-right: 5px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 100;
+  background-color: #ce181e;
+  border: 1px solid #aa070f;
+  box-shadow: 2px 2px 5px #aa070f;
+}
+.extra-cell a:hover {
+  font-weight: 100;
+  background-color: #aa070f;
+  border: 1px solid #aa070f;
+}
+

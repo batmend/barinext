@@ -1,0 +1,228 @@
+.Bari-house-main {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ce181e;
+}
+.Bari-house {
+  width: 100%;
+  padding-left: 20px;
+  margin: auto;
+  padding-top: 10px;
+}
+.Bari-house h3 {
+  padding-bottom: 10px;
+}
+.Bari-house p {
+  width: 98%;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.bari-house-text-top {
+  width: 100%;
+  text-align: center;
+}
+.bari-house-text-top p {
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  font-weight: bold;
+}
+.bari-house-l-title {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.bari-house-line {
+  width: 100%;
+  padding-left: 0;
+  padding-bottom: 30px;
+  height: auto;
+  margin: auto;
+}
+
+.bari-house-img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.bari-house-img img {
+  width: 120px;
+  padding-bottom: 20px;
+}
+.bari-house-title-line {
+  width: 100%;
+}
+.bari-house-title-line h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ce181e;
+}
+.bari-house-text-line {
+  width: 100%;
+  margin: auto;
+}
+.bari-house-text-line p {
+  width: 98%;
+  text-indent: 0px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.barihouse-img {
+  padding-top: 6%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.Bari-house-buttom-text-top {
+  width: 100%;
+  padding: 0 20px;
+  padding-top: 0px;
+}
+.Bari-house-buttom-text-top p {
+  width: 100%;
+  text-indent: 50px;
+  text-align: justify;
+}
+.Bari-house-buttom-line-title {
+  width: 100%;
+  padding-left: 15px;
+}
+.Bari-house-buttom-line-title h3 {
+  text-align: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ce181e;
+}
+.Bari-house-buttom-line-icon {
+  width: 100%;
+  padding-left: 5px;
+  margin: auto;
+}
+.Bari-house-buttom-line-icon p {
+  margin-left: 30px;
+}
+.Bari-house-buttom-line-icon img {
+  width: 20px;
+  float: left;
+  padding-top: 5px;
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .bari-house-title-line h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .Bari-house {
+    padding-left: 0;
+  }
+  .Bari-house h3 {
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .bari-house-l-title h3 {
+    width: 100%;
+    padding-left: 25px;
+  }
+  .bari-house-text-line p {
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .Bari-house p {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+  .Bari-house-buttom-text-top {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .Bari-house-buttom-line-title h3 {
+    width: 100%;
+    padding-left: 15px;
+    text-align: center;
+  }
+  .bari-house-text-top p {
+    width: 80%;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 10px 15px;
+    width: 100%;
+    margin: auto;
+  }
+  .Bari-house h3 {
+    padding-bottom: 0px;
+    width: 100%;
+    margin: auto;
+  }
+  .barihouse-img img {
+    padding-top: 15%;
+  }
+}
+@media (max-width: 992px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 375px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,202 @@
+.Banner1 {
+  width: 100%;
+}
+.Banner1-top {
+  top: 0;
+  left: 0;
+  width: auto;
+  padding-bottom: 60px;
+}
+.Banner1-top__one {
+  padding-top: 10px;
+  margin-left: 0%;
+  padding-top: 50px;
+}
+.Banner1-top__one h1 {
+  font-weight: 450;
+  font-size: 1.8rem;
+
+  text-transform: uppercase;
+  color: #ce181e;
+  text-align: center;
+}
+.Banner1-top__one b {
+  font-weight: bold;
+}
+.Banner1-top__one img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Banner1-top__two {
+  padding-top: 0%;
+  margin-left: 0%;
+}
+
+.Banner1-top__two p {
+  font-weight: 100;
+  text-align: center;
+  margin: 10px 0;
+  padding: 5px;
+}
+.text-p-w {
+  margin: auto;
+  width: 1200px;
+  padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+  .Banner1 .row {
+    margin: 0;
+  }
+  .text-p-w {
+    width: 100%;
+    padding: 0;
+  }
+  .text-p-w p {
+    padding: 0 40px;
+  }
+  .Banner2-top {
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .Card-icon-center {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .Banner1-top__one h1 {
+    font-weight: 450;
+    font-size: 1.4rem;
+
+    text-transform: uppercase;
+    color: #ce181e;
+    text-align: center;
+  }
+  .Banner1-top__one b {
+    font-weight: bold;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Banner1 .row {
+    margin: 0;
+  }
+  .text-p-w {
+    width: 100%;
+    padding: 0;
+  }
+  .text-p-w p {
+    padding: 0 40px;
+  }
+  .Banner2-top {
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .Card-icon-center {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .Banner1-top__one h1 {
+    font-weight: 450;
+    font-size: 1.4rem;
+
+    text-transform: uppercase;
+    color: #ce181e;
+    text-align: center;
+  }
+  .Banner1-top__one b {
+    font-weight: bold;
+    font-size: 24px;
+  }
+}
+
+.Card-icon__col {
+  padding-top: 20px;
+}
+.Card-icon__main {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.Card-icon-center {
+  width: 100%;
+  text-align: center;
+}
+.Card-icon-center__t {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+.Card-icon-center__title {
+  padding-top: 20px;
+}
+.Card-icon-center__title h3 {
+  font-size: 1rem;
+  color: #ce181e;
+  font-weight: 450;
+}
+.Card-icon-center_img {
+  max-width: 250px;
+  height: 250px;
+  margin: auto;
+  padding-top: 42px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.123);
+}
+
+.Card-icon-center_img img {
+  margin: auto;
+}
+@media (max-width: 414px) {
+  .Banner1 .row {
+    margin: 0;
+  }
+  .text-p-w {
+    width: 100%;
+    padding: 0;
+  }
+  .text-p-w p {
+    padding: 0 20px;
+  }
+  .Banner2-top {
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .Card-icon-center {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .Banner1-top__one h1 {
+    font-weight: 450;
+    font-size: 1.4rem;
+
+    text-transform: uppercase;
+    color: #ce181e;
+    text-align: center;
+  }
+  .Banner1-top__one b {
+    font-weight: bold;
+    font-size: 24px;
+  }
+}

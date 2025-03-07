@@ -1,0 +1,48 @@
+.Body-new {
+  overflow: auto;
+  font-family: "Tahoma", sans-serif;
+  max-width: 100%;
+  background-color: #f4f9fa;
+  color: black;
+}
+.Center {
+  max-width: 1920px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.Body-new img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*///////////////footer ////////////////*/
+.add_top_padding {
+  padding-top: 68px;
+}
+@media (max-width: 1200px) {
+  .add_top_padding {
+    padding-top: 0;
+  }
+}
+
+/* / //////////////// roadmap /////////// */
+.road-map {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Center-road {
+  border: 1px solid;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.roud-map-img {
+  width: 100%;
+  height: auto;
+}
+.roud-map-img img {
+  width: 100%;
+  height: auto;
+}

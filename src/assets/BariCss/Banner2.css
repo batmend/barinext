@@ -1,0 +1,196 @@
+.Banner2 {
+  height: auto;
+  padding-top: 130px;
+  padding-bottom: 160px;
+  color: white;
+  text-align: center;
+  background-color: #ce181e;
+}
+.Banner2-top {
+  width: 100%;
+  height: auto;
+}
+.Banner2-top__text {
+  text-align: justify;
+  padding-top: 4.5%;
+}
+.Banner2-top__image {
+  padding-top: 0;
+}
+.Banner2-top__text {
+  width: 90%;
+  padding-left: 120px;
+}
+.Banner2-top__text h2 {
+  padding-bottom: 10px;
+  color: white;
+}
+.Banner2-top__text p{
+  text-indent: 50px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: 100;
+}
+.Banner2-top__text--Img {
+  padding-bottom: 10px;
+}
+.Banner2-top img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 1400px) {
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+  .Banner2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 60px;
+
+  }
+}
+@media (max-width: 1200px) {
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+  .Banner2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 80px;
+
+  }
+}
+@media (max-width: 992px) {
+  .Banner2 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+}
+@media (max-width: 768px) {
+
+  .Banner2 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+}
+@media (max-width: 576px) {
+
+  .Banner2 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding-left:55px;
+    padding-right: 25px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .Banner2 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding-left:35px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+}

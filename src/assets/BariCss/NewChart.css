@@ -1,0 +1,40 @@
+.newchart-top {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.Chart-main-w-size {
+  margin: auto;
+}
+.chat-text-sm {
+  width: 60%;
+  margin: auto;
+}
+.chat-size-w {
+  width: 70%;
+  margin: auto;
+}
+.chart-tablet {
+  width: 86%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.chart-index1 {
+  width: 100%;
+}
+.chart-main-index {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+}
+@media (max-width: 670px) {
+  .chart-tablet {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 564px) {
+  .Chart-main-w-size {
+    font-size: 9px;
+  }
+}

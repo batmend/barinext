@@ -1,0 +1,23 @@
+.content-inner-10{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ce181e;
+  }
+  @media only screen and (max-width: 991px) {
+    .content-inner-10 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .content-inner-10 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  .clientsHe{
+      color: white;
+      margin: 20px;
+      font-size: 18px;
+      font-weight: 600;
+  }

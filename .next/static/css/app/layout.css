@@ -3659,6 +3659,1461 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 	content: "\e75f";
 }
 
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/Body.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.Body-new {
+  overflow: auto;
+  font-family: "Tahoma", sans-serif;
+  max-width: 100%;
+  background-color: #f4f9fa;
+  color: black;
+}
+.Center {
+  max-width: 1920px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.Body-new img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*///////////////footer ////////////////*/
+.add_top_padding {
+  padding-top: 68px;
+}
+@media (max-width: 1200px) {
+  .add_top_padding {
+    padding-top: 0;
+  }
+}
+
+/* / //////////////// roadmap /////////// */
+.road-map {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Center-road {
+  border: 1px solid;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.roud-map-img {
+  width: 100%;
+  height: auto;
+}
+.roud-map-img img {
+  width: 100%;
+  height: auto;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/top-Navbar.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Top-Navbar {
+  width: 100%;
+  background-color: #ce181e;
+}
+.Top-Navbar__text-content__two {
+  padding-top: 6%;
+  text-align: center;
+}
+.Bann_Button {
+  margin-top: 40px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+}
+.buttom-big{
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.Top-Navbar__text-content__two h2 {
+  font-weight: 400;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 130px;
+  color: white;
+}
+.Top-Navbar__text-content__two H1 {
+  font-weight: 500;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: -2px;
+  color: white;
+}
+.Top-Navbar__text-content__one {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.Top-Navbar__text-content {
+  width: 90%;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media (max-width: 1400px) {
+  .Top-Navbar__text-content__two {
+    padding-top: 6%;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__two H2 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__two H1 {
+    font-weight: 400;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .Top-Navbar__text-content__one h1 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__one {
+    padding-bottom: 10px;
+  }
+  .Top-Navbar__text-content {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .Top-Navbar__text-content {
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    padding:0 20px;
+  }
+  .Top-Navbar__text-content__two {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__two H2 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 170px;
+  }
+  .Top-Navbar__text-content__two H1 {
+    font-weight: 300;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__one h1 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__one {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .Bann_Button {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .Top-Navbar__text-content__two H2 {
+    padding-top: 140px;
+  }
+  .Top-Navbar__text-content__two {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__one {
+    padding-top: 30px;
+  }
+  .Bann_Button {
+    margin-top: 40px;
+  }
+  .Top-Navbar__text-content{
+    padding-left: 20px;
+  }
+  .Top-Navbar__text-content{
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  .Top-Navbar__text-content {
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+  .Top-Navbar__text-content__two {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__two H2 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .Top-Navbar__text-content__two H1 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -5px;
+  }
+  .Top-Navbar__text-content__one h1 {
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__one {
+    padding-top: 15px;
+  }
+  .Bann_Button {
+    margin-top: 0px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .Top-Navbar__text-content__one {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  .Top-Navbar__text-content__two {
+    padding-top: 0;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__two H2 {
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .Top-Navbar__text-content__two H1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -5px;
+    padding-bottom: 30px;
+  }
+}
+.ido-start {
+  padding: 5px;
+  color: #231f20;
+}
+.ido-cl {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+@media (max-width: 414px) {
+  .Top-Navbar__text-content__one {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  .Top-Navbar__text-content__two {
+    padding-top: 0;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__two H2 {
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .Top-Navbar__text-content__two H1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -5px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 375px) {
+  .Top-Navbar__text-content__one {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  .Top-Navbar__text-content__two {
+    padding-top: 0;
+    text-align: center;
+  }
+  .Top-Navbar__text-content__two H2 {
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .Top-Navbar__text-content__two H1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -5px;
+    padding-bottom: 30px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/Banner1.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Banner1 {
+  width: 100%;
+}
+.Banner1-top {
+  top: 0;
+  left: 0;
+  width: auto;
+  padding-bottom: 60px;
+}
+.Banner1-top__one {
+  padding-top: 10px;
+  margin-left: 0%;
+  padding-top: 50px;
+}
+.Banner1-top__one h1 {
+  font-weight: 450;
+  font-size: 1.8rem;
+
+  text-transform: uppercase;
+  color: #ce181e;
+  text-align: center;
+}
+.Banner1-top__one b {
+  font-weight: bold;
+}
+.Banner1-top__one img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Banner1-top__two {
+  padding-top: 0%;
+  margin-left: 0%;
+}
+
+.Banner1-top__two p {
+  font-weight: 100;
+  text-align: center;
+  margin: 10px 0;
+  padding: 5px;
+}
+.text-p-w {
+  margin: auto;
+  width: 1200px;
+  padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+  .Banner1 .row {
+    margin: 0;
+  }
+  .text-p-w {
+    width: 100%;
+    padding: 0;
+  }
+  .text-p-w p {
+    padding: 0 40px;
+  }
+  .Banner2-top {
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .Card-icon-center {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .Banner1-top__one h1 {
+    font-weight: 450;
+    font-size: 1.4rem;
+
+    text-transform: uppercase;
+    color: #ce181e;
+    text-align: center;
+  }
+  .Banner1-top__one b {
+    font-weight: bold;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Banner1 .row {
+    margin: 0;
+  }
+  .text-p-w {
+    width: 100%;
+    padding: 0;
+  }
+  .text-p-w p {
+    padding: 0 40px;
+  }
+  .Banner2-top {
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .Card-icon-center {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .Banner1-top__one h1 {
+    font-weight: 450;
+    font-size: 1.4rem;
+
+    text-transform: uppercase;
+    color: #ce181e;
+    text-align: center;
+  }
+  .Banner1-top__one b {
+    font-weight: bold;
+    font-size: 24px;
+  }
+}
+
+.Card-icon__col {
+  padding-top: 20px;
+}
+.Card-icon__main {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.Card-icon-center {
+  width: 100%;
+  text-align: center;
+}
+.Card-icon-center__t {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+.Card-icon-center__title {
+  padding-top: 20px;
+}
+.Card-icon-center__title h3 {
+  font-size: 1rem;
+  color: #ce181e;
+  font-weight: 450;
+}
+.Card-icon-center_img {
+  max-width: 250px;
+  height: 250px;
+  margin: auto;
+  padding-top: 42px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.123);
+}
+
+.Card-icon-center_img img {
+  margin: auto;
+}
+@media (max-width: 414px) {
+  .Banner1 .row {
+    margin: 0;
+  }
+  .text-p-w {
+    width: 100%;
+    padding: 0;
+  }
+  .text-p-w p {
+    padding: 0 20px;
+  }
+  .Banner2-top {
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .Card-icon-center {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .Banner1-top__one h1 {
+    font-weight: 450;
+    font-size: 1.4rem;
+
+    text-transform: uppercase;
+    color: #ce181e;
+    text-align: center;
+  }
+  .Banner1-top__one b {
+    font-weight: bold;
+    font-size: 24px;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/Banner2.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Banner2 {
+  height: auto;
+  padding-top: 130px;
+  padding-bottom: 160px;
+  color: white;
+  text-align: center;
+  background-color: #ce181e;
+}
+.Banner2-top {
+  width: 100%;
+  height: auto;
+}
+.Banner2-top__text {
+  text-align: justify;
+  padding-top: 4.5%;
+}
+.Banner2-top__image {
+  padding-top: 0;
+}
+.Banner2-top__text {
+  width: 90%;
+  padding-left: 120px;
+}
+.Banner2-top__text h2 {
+  padding-bottom: 10px;
+  color: white;
+}
+.Banner2-top__text p{
+  text-indent: 50px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: 100;
+}
+.Banner2-top__text--Img {
+  padding-bottom: 10px;
+}
+.Banner2-top img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 1400px) {
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+  .Banner2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 60px;
+
+  }
+}
+@media (max-width: 1200px) {
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+  .Banner2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 80px;
+
+  }
+}
+@media (max-width: 992px) {
+  .Banner2 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+}
+@media (max-width: 768px) {
+
+  .Banner2 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+}
+@media (max-width: 576px) {
+
+  .Banner2 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding-left:55px;
+    padding-right: 25px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .Banner2 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .Banner2-top__text {
+    width: 100%;
+    padding-left:35px;
+  }
+  .Banner2-top__text p {
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  .Banner2-top__text--Img {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Banner2-top__text h2 {
+    padding-bottom: 10px;
+  }
+  .Banner2-top__image {
+    padding-top: 0;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/Banner3.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Banner3 {
+  height: auto;
+  text-align: center;
+}
+.Banner3-top__text img {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.Banner3-top__text h2 {
+  color: #ce181e;
+  padding-bottom: 10px;
+}
+
+.Banner3-top {
+  width: 1400px;
+  height: auto;
+  margin: auto;
+}
+.Banner3-top__text p {
+  width: 100%;
+  padding-bottom: 10px;
+  text-indent: 50px;
+  text-align: justify;
+}
+.Banner3-top__text {
+  text-indent: 0px;
+  text-align: justify;
+  text-align: left;
+  padding: 0 40px;
+  padding-top: 60px;
+}
+@media (max-width: 1400px) {
+  .Banner3 {
+    height: auto;
+    text-align: center;
+  }
+  .Banner3-top__text img {
+    padding-bottom: 10px;
+  }
+  .Banner3-top__text h2 {
+    color: #ce181e;
+    padding-bottom: 10px;
+  }
+  .Banner3-top__text p {
+    padding-bottom: 10px;
+    text-indent: 0px;
+    text-align: justify;
+  }
+  .a-and-a {
+    float: none;
+    padding-top: 8%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .Banner3-top {
+    width: 100%;
+    height: auto;
+  }
+  .Banner3-top__text {
+    text-indent: 0px;
+    text-align: justify;
+    max-width: 100%;
+    padding: 0 40px;
+    padding-top: 10%;
+  }
+  .Banner3-top__center {
+    width: 100%;
+    margin: auto;
+    text-indent: 50px;
+    text-align: justify;
+    text-align: center;
+  }
+  .Banner3-top__center p {
+    text-indent: 50px;
+  }
+  .Banner3 .row {
+    margin: 0;
+  }
+}
+.a-and-a {
+  width: 100%;
+  padding-top: 30px;
+}
+.a-and-a img {
+  max-width: 100%;
+  margin: auto;
+}
+.Banner3-top img {
+  max-width: 100%;
+  height: auto;
+  bottom: 0;
+}
+
+.banner3-button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid black;
+}
+@media (max-width: 1200px) {
+  .Banner3-top__text {
+    padding: 0 40px;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 992px) {
+  .Banner3-top__text {
+    padding: 0 40px;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .Banner3-top__text {
+    padding: 0 40px;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 576px) {
+  .Banner3-top__text {
+    padding: 0 40px;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 414px) {
+  .banner3-button {
+    margin-top: 10px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/about1.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.about1 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.about1-main {
+  width: 100%;
+  margin: auto;
+}
+.Banner3-top3 {
+  width: 100%;
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.about1-center {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #231f20;
+  box-shadow: 2px 2px 4px #000000;
+}
+.about1-center img {
+  margin-top: -20px;
+  transition: transform 4s;
+}
+.about1-center img:hover {
+  transform: scale(1.3);
+  width: 260px;
+}
+.about1-main h3 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 26px;
+}
+.about1-main p {
+  width: 100%;
+  height: 80px;
+}
+.Center1 {
+  padding-top: 30px;
+  width: 1200px;
+  margin: auto;
+}
+.main333 {
+  height: auto;
+  text-align: center;
+}
+.about-title {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  height: auto;
+}
+.about-title h3 {
+  padding-bottom: 10px;
+  
+  border-bottom: solid #ce181e;
+}
+
+.center10 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about-border-b {
+  float: left;
+  width: 350px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.about-border-b h3 {
+  float: left;
+}
+.top-text-Row{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+
+.top-text-main1{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.top-text-main1 img{
+  width: 100%;
+  padding: 30px;
+}
+.top-text-main2{
+  width: 100%;
+  padding: 30px;
+}
+.top-text-main2 p{
+  padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+  text-align: left;
+  text-align: justify;
+  text-indent: 50px;
+}
+@media (max-width: 1200px) {
+  .Center1{
+    width: 70%;
+  }
+  .top-text-main1 img{
+    width: 100%;
+    padding: 20px;
+  }
+
+}
+@media (max-width: 1200px) {
+  .Center1 {
+    padding-top: 10px;
+    width: 436px;
+    margin: auto;
+  }
+  .top-text-main2{
+    padding: 0;
+  }
+  .top-text-main2 p{
+   padding: 0 20px;
+}
+.Center1{
+  width: 90%;
+}
+.top-text-main1 img{
+  width: 100%;
+  padding: 20px;
+}
+.about-border-b h3 {
+  float: none;
+}
+}
+@media (max-width: 992px) {
+  .Center1 {
+    padding-top: 10px;
+    width: 436px;
+    margin: auto;
+  }
+  .top-text-main2{
+    padding: 0;
+  }
+  .top-text-main2 p{
+   padding: 0 20px;
+}
+.Center1{
+  width: 90%;
+}
+.top-text-main1 img{
+  width: 100%;
+  padding: 20px;
+}
+.about-border-b h3 {
+  float: none;
+}
+}
+@media (max-width: 768px) {
+  .Center1 {
+    padding-top: 10px;
+    width: 436px;
+    margin: auto;
+  }
+  .top-text-main2{
+    padding: 0;
+  }
+  .top-text-main2 p{
+   padding: 0 20px;
+}
+.Center1{
+  width: 90%;
+}
+.top-text-main1 img{
+  width: 100%;
+  padding: 20px;
+}
+.about-border-b h3 {
+  float: none;
+}
+}
+@media (max-width: 375px) {
+  .Center1 {
+    padding-top: 10px;
+    width: 320px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .Center1 {
+    padding-top: 10px;
+    width: 436px;
+    margin: auto;
+  }
+  .top-text-main2{
+    padding: 0;
+  }
+  .top-text-main2 p{
+   padding: 0 20px;
+}
+.Center1{
+  width: 90%;
+}
+.top-text-main1 img{
+  width: 100%;
+  padding: 20px;
+}
+.about-border-b h3 {
+  float: none;
+}
+}
+
+@media (max-width: 414px) {
+  .Center1 {
+    padding-top: 10px;
+    width: 436px;
+    margin: auto;
+  }
+  .top-text-main2{
+    padding: 0;
+  }
+  .top-text-main2 p{
+   padding: 0 20px;
+}
+.Center1{
+  width: 90%;
+}
+.top-text-main1 img{
+  width: 100%;
+  padding: 20px;
+}
+.about-border-b h3 {
+  float: none;
+}
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/NewChart.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.newchart-top {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.Chart-main-w-size {
+  margin: auto;
+}
+.chat-text-sm {
+  width: 60%;
+  margin: auto;
+}
+.chat-size-w {
+  width: 70%;
+  margin: auto;
+}
+.chart-tablet {
+  width: 86%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.chart-index1 {
+  width: 100%;
+}
+.chart-main-index {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+}
+@media (max-width: 670px) {
+  .chart-tablet {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 564px) {
+  .Chart-main-w-size {
+    font-size: 9px;
+  }
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/barihouse.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.Bari-house-main {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ce181e;
+}
+.Bari-house {
+  width: 100%;
+  padding-left: 20px;
+  margin: auto;
+  padding-top: 10px;
+}
+.Bari-house h3 {
+  padding-bottom: 10px;
+}
+.Bari-house p {
+  width: 98%;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.bari-house-text-top {
+  width: 100%;
+  text-align: center;
+}
+.bari-house-text-top p {
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  font-weight: bold;
+}
+.bari-house-l-title {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.bari-house-line {
+  width: 100%;
+  padding-left: 0;
+  padding-bottom: 30px;
+  height: auto;
+  margin: auto;
+}
+
+.bari-house-img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.bari-house-img img {
+  width: 120px;
+  padding-bottom: 20px;
+}
+.bari-house-title-line {
+  width: 100%;
+}
+.bari-house-title-line h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ce181e;
+}
+.bari-house-text-line {
+  width: 100%;
+  margin: auto;
+}
+.bari-house-text-line p {
+  width: 98%;
+  text-indent: 0px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.barihouse-img {
+  padding-top: 6%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.Bari-house-buttom-text-top {
+  width: 100%;
+  padding: 0 20px;
+  padding-top: 0px;
+}
+.Bari-house-buttom-text-top p {
+  width: 100%;
+  text-indent: 50px;
+  text-align: justify;
+}
+.Bari-house-buttom-line-title {
+  width: 100%;
+  padding-left: 15px;
+}
+.Bari-house-buttom-line-title h3 {
+  text-align: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ce181e;
+}
+.Bari-house-buttom-line-icon {
+  width: 100%;
+  padding-left: 5px;
+  margin: auto;
+}
+.Bari-house-buttom-line-icon p {
+  margin-left: 30px;
+}
+.Bari-house-buttom-line-icon img {
+  width: 20px;
+  float: left;
+  padding-top: 5px;
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .bari-house-title-line h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .Bari-house {
+    padding-left: 0;
+  }
+  .Bari-house h3 {
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .bari-house-l-title h3 {
+    width: 100%;
+    padding-left: 25px;
+  }
+  .bari-house-text-line p {
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .Bari-house p {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+  .Bari-house-buttom-text-top {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .Bari-house-buttom-line-title h3 {
+    width: 100%;
+    padding-left: 15px;
+    text-align: center;
+  }
+  .bari-house-text-top p {
+    width: 80%;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 10px 15px;
+    width: 100%;
+    margin: auto;
+  }
+  .Bari-house h3 {
+    padding-bottom: 0px;
+    width: 100%;
+    margin: auto;
+  }
+  .barihouse-img img {
+    padding-top: 15%;
+  }
+}
+@media (max-width: 992px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 375px) {
+  .Bari-house-main {
+    padding: 0;
+  }
+  .Bari-house p {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/slug.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.img-fluid {
+  width: 100%;
+  margin: auto;
+}
+.slug-detail-header {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.slug-detail-header h1 {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.code-filename {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 10px;
+  color: rgb(95, 95, 95);
+  text-align: center;
+  font-style: italic;
+}
+.news_image {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.news_image-left {
+  float: left;
+  margin-right: 30px;
+}
+.news_image-right {
+  float: right;
+  margin-left: 30px;
+}
+.code-filename-top{
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: rgb(95, 95, 95);
+  text-align: center;
+  font-style: italic;
+}
+.slug-text{
+  width: 98%;
+  margin: auto;
+  padding-bottom: 60px;
+}
+.slug-text p{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+.slug-text img{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.slug-text blockquote{
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+}
+.slug-source{
+  float:right;
+  padding-right: 10px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/BariCss/clientsMain.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.content-inner-10{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ce181e;
+  }
+  @media only screen and (max-width: 991px) {
+    .content-inner-10 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .content-inner-10 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  .clientsHe{
+      color: white;
+      margin: 20px;
+      font-size: 18px;
+      font-weight: 600;
+  }
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/assets/css/style.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************/
@@ -27450,6 +28905,28 @@ footer {
    
     margin-bottom: 18px;
   }
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
+
+/* ////////////*****Mongol eng hel colih towchluur ********/
+
+.extra-cell a {
+  padding: 6px;
+  margin-right: 5px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 100;
+  background-color: #ce181e;
+  border: 1px solid #aa070f;
+  box-shadow: 2px 2px 5px #aa070f;
+}
+.extra-cell a:hover {
+  font-weight: 100;
+  background-color: #aa070f;
+  border: 1px solid #aa070f;
 }
 
 
