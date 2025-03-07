@@ -11,7 +11,7 @@ const Mongolian = {
   FooterOtherLinks: "БУСАД ХОЛБООС",
 
   BariService: "БАРИ үйлчилгээ",
-  BariPortfolio: "САЙН УУ1 ДЭЛХИЙ МИНЬ",
+  BariPortfolio: "САЙН УУ12 ДЭЛХИЙ МИНЬ",
 
   aboutUs: "Бидний тухай",
   aboutUsDesc:
