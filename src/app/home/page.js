@@ -1,4 +1,12 @@
 "use client"
+
+// 🔵 Шинэ код эхэлж байна
+import React, { useState, useEffect } from "react";  
+import Cookies from "js-cookie";  
+import English from "../../../locales/English";  
+import Mongolian from "../../../locales/Mongolian";  
+// 🔵 Шинэ код дуусав
+
 import Image from "next/image";
 // import Link from "next/link";
 
@@ -21,11 +29,27 @@ import Footer from "../../components/Footer";
 import GetInTouch from "@/components/GetInTouch";
 import { awesomeServices } from "@/data/services";
 
+
+
+// 🔵 Шинэ код эхэлж байна
+const getInitialLocale = () => {
+    return Cookies.get("NEXT_LOCALE") || "mn";  
+};
+
 export default function HomePage() {    
+    const [locale, setLocale] = useState(getInitialLocale());  
+    const [t, setT] = useState(locale === "en" ? English : Mongolian);  
+
+    useEffect(() => {  
+        Cookies.set("NEXT_LOCALE", locale, { expires: 365 }); // ⚡ Cookie-д хадгалах
+        setT(locale === "en" ? English : Mongolian);  
+    }, [locale]);  
+// 🔵 Шинэ код дуусав
+
     const selectedServices = awesomeServices.filter(service => [1,2,3].includes(service.id));
     return(
         <>
-            <Header  headstyle={"header-transparent text-black"}/>
+            <Header  headstyle={"header-transparent text-black"} setLocale={setLocale} locale={locale} />
             <div className="page-content bg-white">		
                 <div className="banner-one" 
                     style={{backgroundImage: `url('${ThemeImage.SliderBnr2.src}')`}}
@@ -59,8 +83,9 @@ export default function HomePage() {
                     <div className="content-inner-2">
                         <div className="container">
                             <div className="section-head style-1 text-center">
-                                <h6 className="sub-title">SERVICES</h6>
-                                <h2 className="title">PROVIDE AWESOME SERVICE</h2>
+                                {/* 🔵 Хэлний сонголтоор автоматаар солигддог болгов */}
+                                    <h6 className="sub-title">{t.BariService}</h6>  
+                                    <h2 className="title">{t.BariPortfolio}</h2>  
                             </div>
                             <div className="row">                                
                                 {selectedServices.map((service, i)=>(

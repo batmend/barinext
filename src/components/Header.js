@@ -6,8 +6,8 @@ import { usePathname } from "next/navigation";
 import { ThemeImage } from "@/data/ThemeImage";
 import LocaleSwitcher from "@/components/LocaleSwitcher"; // LocaleSwitcher нэмэх
 import Cookies from "js-cookie";
-import English from "@/locales/English";
-import Mongolian from "@/locales/Mongolian";
+import English from "../../locales/English";
+import Mongolian from "../../locales/Mongolian";
 
 import {menuItems} from '../data/menulist'
 const reducer = (previousState, updatedState) => ({
@@ -20,7 +20,7 @@ const initialState = {
 }
   
 
-export default function Header({headstyle}) {
+export default function Header({ headstyle, setLocale, locale }) {  // ✅ `setLocale` болон `locale`-г prop-р хүлээн авна
 	const [headerSticky, setHeaderSticky] = React.useState(false);
 	useEffect(() => {
 	  window.addEventListener("scroll", () => {
@@ -53,15 +53,11 @@ export default function Header({headstyle}) {
 		})
     }, [path]);
 
-	 // 📌 Хэлний тохиргоо хадгалах state
-	 const [locale, setLocale] = useState("mn"); // Анхдагч хэл Монгол
-	 const [t, setT] = useState(Mongolian); // Тухайн хэлний контент
-   
-	 useEffect(() => {
-	   const savedLocale = Cookies.get("NEXT_LOCALE") || "mn";
-	   setLocale(savedLocale);
-	   setT(savedLocale === "en" ? English : Mongolian); // Хэл өөрчлөгдөх бүрт контент шинэчлэх
-	 }, []);
+	 // 📌 Шинэ код (prop-р дамжуулсан утгыг ашиглах)
+	const [t, setT] = useState(locale === "en" ? English : Mongolian);
+		useEffect(() => {
+    	setT(locale === "en" ? English : Mongolian);
+}, [locale]);
    
 	 // 📌 Хэл солигдоход контент шинэчлэх
 	 useEffect(() => {

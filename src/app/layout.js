@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Cookies from "js-cookie"; // Cookie ашиглах
 
-import English from "../locales/English";
-import Mongolian from "../locales/Mongolian";
+import English from "../../locales/English";
+import Mongolian from "../../locales/Mongolian";
 
 import "../../node_modules/react-modal-video/css/modal-video.css";
 import "lightgallery/css/lightgallery.css";
