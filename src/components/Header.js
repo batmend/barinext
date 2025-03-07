@@ -21,20 +21,24 @@ const initialState = {
 
 export default function Header({ headstyle, setLocale, locale }) {
   const [headerSticky, setHeaderSticky] = useState(false);
+  const [menuItems, setMenuItems] = useState([]); // ⚠ Менюг анх хоосон байлгах
+  const [openToggle, setOpenToggle] = useState(false);
+  const [state, setState] = useReducer(reducer, initialState);
+
+  // 🌟 `useEffect`-ээр орчуулсан менюг тохируулах
+  useEffect(() => {
+    const t = locale === "en" ? English : Mongolian;
+    setMenuItems(getMenuItems(t)); // Менюны утгуудыг зөв тохируулах
+  }, [locale]);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setHeaderSticky(window.scrollY > 50);
     });
   }, []);
 
-  const [openToggle, setOpenToggle] = useState(false);
-  const [state, setState] = useReducer(reducer, initialState);
-
   const handleMenuActive = (status) => {
-    setState({ active: status });
-    if (state.active === status) {
-      setState({ active: "" });
-    }
+    setState({ active: state.active === status ? "" : status });
   };
 
   let path = "";
@@ -44,22 +48,6 @@ export default function Header({ headstyle, setLocale, locale }) {
     path = path[path.length - 1];
   }
 
-  // ✅ `locale` ашиглан `t`-г тодорхойлно
-  const t = locale === "en" ? English : Mongolian;
-
-  useEffect(() => {
-    getMenuItems(t).forEach((data) => {
-      data.submenu?.forEach((item) => {
-        if (path === item.href) {
-          setState({ active: data.title });
-        }
-      });
-    });
-  }, [path, t]);
-
-  // ✅ `t` утгыг `getMenuItems` руу дамжуулна
-  const menuItems = getMenuItems(t);
-
   return (
     <header className={`site-header header mo-left ${headstyle}`}>
       <div
@@ -67,7 +55,7 @@ export default function Header({ headstyle, setLocale, locale }) {
           headerSticky ? "is-fixed" : ""
         }`}
       >
-        <div className="main-bar clearfix ">
+        <div className="main-bar clearfix">
           <div className="container clearfix">
             <div className="logo-header logo-dark">
               <Link href="#" scroll={false}>
@@ -113,16 +101,17 @@ export default function Header({ headstyle, setLocale, locale }) {
               <ul className="nav navbar-nav navbar">
                 {menuItems.map((item, index) => (
                   <li
+                    key={index}
                     className={`${item.submenu ? "sub-menu-down" : ""} ${
                       state.active === item.title ? "open" : ""
                     }`}
-                    key={index}
                   >
                     <Link
                       href={item.href}
                       onClick={() => handleMenuActive(item.title)}
                     >
-                      <span>{item.title}</span>
+                      <span suppressHydrationWarning>{item.title}</span>{" "}
+                      {/* 🌟 Hydration Error-ийг дарна */}
                     </Link>
                     {item.submenu && (
                       <ul className="sub-menu">
@@ -133,7 +122,9 @@ export default function Header({ headstyle, setLocale, locale }) {
                               subitem.href === path ? "active" : ""
                             }`}
                           >
-                            <Link href={subitem.href}>{subitem.title}</Link>
+                            <Link href={subitem.href} suppressHydrationWarning>
+                              {subitem.title}
+                            </Link>
                           </li>
                         ))}
                       </ul>
