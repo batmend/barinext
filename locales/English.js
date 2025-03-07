@@ -12,8 +12,50 @@ const English = {
 
   BariService: "BARI SERVICE",
   BariPortfolio: "HELLO WORLD",
+
+  aboutUs: "About Us",
+  aboutUsDesc:
+    "Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut feugiat eget, cursus eget felis.",
+
+  MenuHome: "Home",
+  MenuPages: "Pages",
+  MenuAboutUs: "About Us",
+  MenuFaq: "FAQ",
+  MenuPricing: "Pricing Table",
+  MenuTeam: "Team",
+  MenuTeamDetails: "Team Details",
+  MenuCompanyHistory: "Company History",
+  MenuComingSoon: "Coming Soon",
+  MenuError404: "Error 404",
+  MenuSiteDown: "Site Down",
+  MenuServices: "Services",
+  MenuServicesDetails: "Services Details",
+  MenuPostLayout: "Post Layout",
+  MenuPostStandard: "Post Standard",
+  MenuPostLeftSidebar: "Post Left Sidebar",
+  MenuPostHeaderImage: "Post Header Image",
+  MenuPostSlideShow: "Post Slide Show",
+  MenuPostSideImage: "Post Side Image",
+  MenuPostGallery: "Post Gallery",
+  MenuPostGalleryAlt: "Post Gallery Alternative",
+  MenuPostLink: "Post Link",
+  MenuPostAudio: "Post Audio",
+  MenuPostVideo: "Post Video",
+  MenuPostPagination: "Post With Pagination",
+  MenuPostOpenGutenberg: "Post Open Gutenberg",
+  MenuBlog: "Blog",
+  MenuBlogGrid: "Blog Grid 2",
+  MenuBlogDetails: "Blog Details",
+  MenuBlogSidebar: "Large Right Sidebar",
+  MenuContactUs: "Contact Us",
+  FooterLinks: "OUR LINKS",
+  FooterServices: "OUR SERVICES",
+  FooterStrategy: "Strategy & Research",
+  FooterWebDev: "Web Development",
+  FooterWebSolution: "Web Solution",
+  FooterDigitalMarketing: "Digital Marketing",
+  FooterAppDesign: "App Design",
+  FooterOtherLinks: "OTHER LINKS",
 };
 
 export default English;
-
-  
